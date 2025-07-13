@@ -29,4 +29,6 @@ model Project {
   repoUrl String
   deployUrl String?
   tecnologias String[]
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
 }
