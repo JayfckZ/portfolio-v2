@@ -1,30 +1,30 @@
 @import 'tailwindcss';
 
-@layer theme {
-  @theme {
-    /* fontes */
-    --font-sans: 'Montserrat';
-    --font-mono: 'Fira Code';
+@theme {
+  /* fontes */
+  --font-sans: 'Montserrat';
+  --font-mono: 'Fira Code';
 
-    /* cores */
-    --color-primary: #007bff;
-    --color-text: #4a4a4a;
-    --color-background: #1e1e1e;
+  /* cores */
+  --color-primary: #007bff;
+  --color-text: #4a4a4a;
+  --color-background: #1e1e1e;
 
-    /* cores linguagens */
-    --color-html: #e34f26;
-    --color-js: #f0db4f;
-    --color-ts: #3178c6;
-    --color-bs: #7952b3;
-    --color-tailwind: #06b6d4;
-    --color-gulparcel: #e55137;
-    --color-tests: #ff9800;
-    --color-jquery: #0769ad;
-    --color-react: #61dafb;
-    --color-python: #4caf50;
-    --color-django: #00c853;
-    --color-java: #d50032;
-    --color-docker: #2496ed;
-    --color-bd: #f29111;
-  }
+  /* cores linguagens */
+  --color-html: #e34f26;
+  --color-js: #f0db4f;
+  --color-ts: #3178c6;
+  --color-bs: #7952b3;
+  --color-tailwind: #06b6d4;
+  --color-gulparcel: #e55137;
+  --color-tests: #ff9800;
+  --color-jquery: #0769ad;
+  --color-react: #61dafb;
+  --color-python: #4caf50;
+  --color-django: #00c853;
+  --color-java: #d50032;
+  --color-docker: #2496ed;
+  --color-bd: #f29111;
 }
+
+@custom-variant dark (&:where(.dark, .dark *));
