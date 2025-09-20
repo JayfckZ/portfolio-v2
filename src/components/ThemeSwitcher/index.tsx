@@ -18,7 +18,7 @@ export const ThemeSwitcher = ({ className='' }) => {
   }
 
   return (
-    <button onClick={toggleTheme} className={`px-3 py-2 bg-none text-primary hover:bg-primary hover:text-white rounded-4xl duration-200 ease-linear cursor-pointer text-2xl ${className}`}>
+    <button onClick={toggleTheme} className={`px-3 py-2 bg-none text-primary hover:bg-primary hover:text-white rounded-4xl duration-200 ease-linear cursor-pointer text-2xl outline-none ${className}`}>
       {theme === 'dark' ? <i className="bi bi-moon-stars-fill"></i> : <i className="bi bi-sun-fill"></i>}
     </button>
   )
