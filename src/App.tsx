@@ -2,6 +2,7 @@ import { Navbar } from './containers/Navbar'
 import { Card } from './components/Card'
 import { Routes, Route } from 'react-router-dom'
 import './index.css'
+import { Container } from './components/Container'
 
 const teste: Projeto = {
   image: 'https://placehold.co/500x250',
@@ -33,9 +34,9 @@ function App() {
         <Route
           path="/projetos"
           element={
-            <div>
+            <Container>
               <Card projeto={teste} />
-            </div>
+            </Container>
           }
         />
       </Routes>
