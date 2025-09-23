@@ -10,7 +10,9 @@
   --color-text: #4a4a4a;
   --color-background: #1e1e1e;
   --color-background-secondary: #121212;
-  --color-background-white-secondary: #f0f2f5;
+  --color-background-white-secondary: #e0e0e0;
+  --color-card: #f4f4f4;
+  --color-card-dark: #2c2c2c;
 
   /* cores linguagens */
   --color-html: #e34f26;
